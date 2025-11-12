@@ -129,7 +129,7 @@ def main():
 
 
 while True:
-    choice = input("Do you want to play a game (Y/N): ")
+    choice = input("Do you want to play a game of TIC TAC TOE ? (Y/N): ")
     if choice.lower() == 'y':
         board = [" " for i in range(10)]
         print("-----------------------------------------")
